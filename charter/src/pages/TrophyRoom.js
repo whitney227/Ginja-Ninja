@@ -1,9 +1,7 @@
 import React from 'react'
+import Hero from '../components/Hero'
 
-export default function TrophyRoom() {
-    return (
-        <div>
-            hello from Trophy Room
-        </div>
-    )
-}
+const TrophyRoom = () => {
+    return <Hero hero="trophyHero" />;
+};
+export default TrophyRoom
