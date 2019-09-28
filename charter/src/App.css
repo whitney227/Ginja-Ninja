@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 :root {
-  --primaryColor: #af9a7d;
+  --primaryColor: #0080ff;
   --mainWhite: #fff;
   --offWhite: #f7f7f7;
   --mainBlack: #222;
@@ -121,11 +121,11 @@ h6 {
 .nav-links a {
   display: block;
   text-decoration: none;
-  padding: 1rem 0;
-  color: var(--mainBlack);
+  /* padding: 0.5rem 0; */
+  color: white;
   transition: var(--mainTransition);
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 600;
   letter-spacing: var(--mainSpacing);
 }
@@ -153,6 +153,8 @@ h6 {
   .nav-links a {
     margin: 0 1rem;
     padding: 0.5rem 0;
+    font-size: 1.5rem;
+    color: var(--mainBlack);
   }
 }
 /* end of navbar */
@@ -187,7 +189,7 @@ h6 {
   letter-spacing: var(--mainSpacing);
 }
 .banner h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 .banner div {
   width: 10rem;
@@ -204,7 +206,7 @@ h6 {
     padding: 2rem 3rem;
   }
   .banner h1 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 }
 @media screen and (min-width: 992px) {
@@ -212,7 +214,7 @@ h6 {
     padding: 2rem 6rem;
   }
   .banner h1 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 }
 /* End of Banner */
