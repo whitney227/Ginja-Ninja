@@ -1,29 +1,35 @@
 import React, { Component } from 'react'
 import {FaPhone, FaFish, FaGlassWhiskey, FaMapMarkerAlt} from 'react-icons/fa';
 import Title from './Title';
+
 export default class Services extends Component {
     state={
         services: [
             {
                 icon:<FaGlassWhiskey/>,
                 title:"Food & Bev",
-                info: "We provide coolers and ice for all food and beverages.  Snacks such as chips will be provided as well as water and gatorade.  Customers should bring any additional food or beverages they would like to eat or drink.  No glass, please."
+                info: "We provide coolers and ice for all food and beverages.  Snacks such as chips will be provided as well as water and gatorade.  Customers should bring any additional food or beverages they would like to eat or drink.",
+                more:"No glass"
             },
             {
                 icon:<FaMapMarkerAlt/>,
                 title:"Location",
                 info: "We are located in Charleston, SC.  All trips depart from Ripley Light Yacht Club.",
-                address:"95 Ripley Point Drive"
+                more:"95 Ripley Point Drive"
+               
             },
             {
                 icon:<FaFish/>,
                 title:"Services",
-                info:"Fish cleaning and fishing licenses are included in all packages.  We also supply gear, tackle, and bait."
+                info:"Fish cleaning and fishing licenses are included in all packages.  We also supply gear, tackle, and bait.",
+                more:"Tipping is customary"
             },
             {
                 icon:<FaPhone/>,
                 title:"Contact",
-                contact:""
+                info:"Call Captain Tripp Amick to book your next charter.",
+                more:'Phone: 803-924-5817'
+                
 
             }
 
@@ -40,7 +46,7 @@ export default class Services extends Component {
                             <span>{item.icon}</span>
                             <h6>{item.title}</h6>
                             <p>{item.info}</p>
-                            <ul>{item.contact}</ul>
+                            <ul>{item.more}</ul>
                         </article>
                     })}
                 </div>

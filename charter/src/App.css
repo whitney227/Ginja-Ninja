@@ -269,7 +269,9 @@ h6 {
   text-align: justify;
 }
 .services ul {
-  text-align: left;
+  text-align: center;
+  margin-top:1.5rem;
+  font-weight: bold;
 }
 
 @media screen and (min-width: 992px) {
