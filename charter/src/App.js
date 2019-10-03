@@ -9,6 +9,7 @@ import Error from './pages/Error';
 import {Route, Switch} from 'react-router-dom'
 
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <Route exact path="/trophy-room" component={TrophyRoom}/>
       <Route component={Error} />
     </Switch>
+    <Footer />
   </>  
   );
 }
