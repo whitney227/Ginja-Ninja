@@ -14,7 +14,7 @@ export default class Services extends Component {
             {
                 icon:<FaMapMarkerAlt/>,
                 title:"Location",
-                info: "We are located in Charleston, SC.  All trips depart from Ripley Light Yacht Club.",
+                info: "We are located in Charleston, SC.  All trips depart from Ripley Light Yacht Club. Gulf stream trips plan to arrive 15 minutes before departure time.",
                 more:"95 Ripley Point Drive"
                
             },
@@ -27,7 +27,7 @@ export default class Services extends Component {
             {
                 icon:<FaPhone/>,
                 title:"Contact",
-                info:"Call Captain Tripp Amick to book your next charter.",
+                info:"Call Captain Tripp Amick to book your next charter.  At least 3 days in advance on booking plus 25% deposit due.",
                 more:'Phone: 803-924-5817'
                 
 

@@ -263,6 +263,9 @@ h6 {
 .services h6 {
   letter-spacing: var(--mainSpacing);
 }
+.services h4 {
+  letter-spacing: var(--mainSpacing);
+}
 .services p {
   width: 80%;
   margin: 0 auto;
