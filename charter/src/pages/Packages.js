@@ -2,6 +2,7 @@ import React from 'react'
 import Hero from '../components/Hero';
 import Banner from '../components/Banner'
 import Charters from '../components/Charters'
+import Reservations from '../components/Reservations'
 
 const Packages = () => {
     return (
@@ -11,6 +12,7 @@ const Packages = () => {
             </Banner>
         </Hero>
         <Charters />
+        <Reservations />
         </>
     );
    

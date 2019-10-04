@@ -291,6 +291,31 @@ h6 {
 }
 /*end of services */
 
+/* reservations */
+.reservations{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: auto;
+  width: 80%;
+}
+.bookNowBtn{
+  /* display: inline-block; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1em;
+  text-decoration: none;
+  letter-spacing: var(--mainSpacing);
+  color: white;
+  background: var(--primaryColor);
+  padding: 0.4rem 0.9rem;
+  border: 3px solid var(--primaryColor);
+  transition: var(--mainTransition);
+  text-transform: uppercase;
+  cursor: pointer;
+}
+/* end of reservations */
+
 /* footer */
 .footer {
   position: sticky;
