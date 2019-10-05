@@ -321,7 +321,6 @@ img {
     max-width: 1170px;
   }
 }
-
 /* end of sponsors */
 
 /* reservations */
@@ -349,6 +348,31 @@ img {
   cursor: pointer;
 }
 /* end of reservations */
+
+/* card deck */
+.cardDeck{
+  width: 90vw;
+  margin: auto;
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+  grid-row-gap: 2rem;
+  grid-column-gap: 50px;
+}
+.cardImg{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 0;
+  border-style: solid;
+  border-width: 2px;
+  border-color: var(--darkGrey); 
+}
+.cardImg:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+}
+
+/* end of card deck */
 
 /* footer */
 .footer {
