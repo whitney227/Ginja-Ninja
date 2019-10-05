@@ -396,6 +396,14 @@ img {
   color: white;
   z-index: 1;
 }
+.mr-auto{
+  width: 30%;
+  padding-top: 10px;
+  margin:auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 10px;
+}
 /* end of footer */
 
 
