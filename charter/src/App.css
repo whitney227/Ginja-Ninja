@@ -89,7 +89,7 @@ h6 {
 /* end of globals */
 /* Navbar */
 .navbar {
-  position: fixed; 
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -171,15 +171,17 @@ h6 {
 }
 .packagesHero {
   background-image: url("./images/packages-hero3.jpg");
-  /* min-height: 90vh;  */
+  min-height: 90vh;  
 }
 .trophyHero {
   background-image: url("./images/trophy-room-hero.png");
-  min-height: 80vh;
+  /* min-height: 80vh; */
 }
 /* End of Hero */
 /* Banner */
 .banner {
+  position: absolute;
+  bottom: 50px;
   display: inline-block;
   background: rgba(0, 0, 0, 0.5);
   color: var(--mainWhite);
@@ -188,6 +190,7 @@ h6 {
   text-transform: capitalize;
   letter-spacing: var(--mainSpacing);
 }
+
 .banner h1 {
   font-size: 2rem;
 }
