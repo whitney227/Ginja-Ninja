@@ -221,7 +221,7 @@ h6 {
 /* Title */
 .section-title {
   text-align: center;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 .section-title h4 {
   font-size: 2rem;
@@ -290,6 +290,39 @@ h6 {
   }
 }
 /*end of services */
+
+/* sponsors */
+img {
+  display: inline-block;
+  padding: 5px;
+  width: 200px;
+}
+
+.sponsors {
+  padding: 2rem 0;
+}
+.sponsors {
+  background: white;
+  text-align: center;
+}
+.sponsors-center {
+  width: 90vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+  grid-row-gap: 2rem;
+  grid-column-gap: 50px;
+
+}
+
+@media screen and (min-width: 992px) {
+  .sponsors-center {
+    width: 95vw;
+    max-width: 1170px;
+  }
+}
+
+/* end of sponsors */
 
 /* reservations */
 .reservations{

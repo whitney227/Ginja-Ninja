@@ -2,6 +2,8 @@ import React from 'react'
 import Hero from '../components/Hero';
 import Banner from '../components/Banner'
 import Services from'../components/Services'
+import Sponsors from '../components/Sponsors'
+
 export default function Home() {
     return (
         <>
@@ -12,6 +14,7 @@ export default function Home() {
             </Banner>
         </Hero>
         <Services />
+        <Sponsors />
         </>
     );
 }
