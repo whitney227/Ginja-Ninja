@@ -15,7 +15,10 @@ export default class Services extends Component {
                 icon:<FaMapMarkerAlt/>,
                 title:"Location",
                 info: "We are located in Charleston, SC.  All trips depart from Ripley Light Yacht Club. Gulf stream trips plan to arrive 15 minutes before departure time.",
-                more:"95 Ripley Point Drive"
+                more: <a href="https://www.google.com/maps/place/Ripley+Light+Yacht+Club/@32.777527,-79.964026,15z/data=!4m5!3m4!1s0x0:0xbbd32a29f6ce8e4e!8m2!3d32.777527!4d-79.964026" 
+                // eslint-disable-next-line
+                target="_blank" style={{color:"black"}}>95 Ripley Point Drive</a>
+                
                
             },
             {
