@@ -27,14 +27,12 @@ const TrophyRoom = () => {
             <Card image={Card2} />
             <Card image={Card3} />
             <Card image={Card4} />
-        </CardDeck>
-        <CardDeck className="cardDeck">
+        
             <Card image={Card5} />
             <Card image={Card6} />
             <Card image={Card7} />
             <Card image={Card8} />
-        </CardDeck>
-        <CardDeck className="cardDeck">
+      
             <Card image={Card9} />
             <Card image={Card10} />
             <Card image={Card11} />
