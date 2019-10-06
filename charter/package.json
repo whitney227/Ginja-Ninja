@@ -2,7 +2,7 @@
   "name": "charter",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "http://myname.github.io/myapp",
+  "homepage" : "http://ginjaninjafishing.com",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "react": "^16.9.0",
