@@ -13,12 +13,12 @@ export default class Footer extends  Component {
                     <Nav.Link target="_blank" href="https://www.instagram.com/ginja_ninja_fishingteam/">
                         <FaCameraRetro style={{color: 'white'}}/>
                     </Nav.Link>
-                    <Nav.Link trigger="click" placement="top">
+                    <Nav.Item>
                         <FaMobileAlt style={{color: 'white'}}/>
-                    </Nav.Link>
-                    <Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
                         <FaEnvelope style={{color: 'white'}}/>
-                    </Nav.Link>
+                    </Nav.Item>
                 </Nav>
                 <p style={{fontSize:"18px", paddingTop:"10px"}}> 
                     <FaRegCopyright />
