@@ -2,11 +2,13 @@
   "name": "ginja-ninja",
   "version": "1.0.0",
   "description": "fishing charter",
-  "homepage": "https://git.heroku.com/evening-eyrie-99527.git",
+  "homepage": "http://whitney227.github.io/Ginja-Ninja",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
