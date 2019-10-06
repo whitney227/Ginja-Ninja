@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav';
-import {FaCameraRetro, FaMobileAlt, FaEnvelope} from 'react-icons/fa'
+import {FaCameraRetro, FaMobileAlt, FaEnvelope, FaRegCopyright} from 'react-icons/fa'
 
 export default class Footer extends  Component {
     render(){
@@ -19,8 +19,11 @@ export default class Footer extends  Component {
                     <Nav.Link>
                         <FaEnvelope style={{color: 'white'}}/>
                     </Nav.Link>
-
                 </Nav>
+                <p style={{fontSize:"18px", paddingTop:"10px"}}> 
+                    <FaRegCopyright />
+                    2019 Ginga Ninga Charters LLC
+                </p>
              </Navbar>
              </>
         );
