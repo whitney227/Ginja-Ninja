@@ -2,6 +2,7 @@
   "name": "ginja-ninja",
   "version": "1.0.0",
   "description": "fishing charter",
+  "homepage": ".",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -16,8 +17,8 @@
   "bugs": {
     "url": "https://github.com/whitney227/Ginja-Ninja/issues"
   },
-  "homepage": "https://evening-eyrie-99527.herokuapp.com/",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "gh-pages": "^2.1.1"
   }
 }
