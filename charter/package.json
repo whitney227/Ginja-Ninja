@@ -2,7 +2,7 @@
   "name": "charter",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "http://ginjaninjafishing.com",
+  "homepage" : "https://evening-eyrie-99527.herokuapp.com/",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "react": "^16.9.0",
