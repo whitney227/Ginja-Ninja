@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/whitney227/Ginja-Ninja/issues"
   },
-  "homepage": "https://evening-eyrie-99527.herokuapp.com/"
+  "homepage": "https://evening-eyrie-99527.herokuapp.com/",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
