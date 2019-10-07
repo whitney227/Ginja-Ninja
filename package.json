@@ -2,7 +2,7 @@
   "name": "ginja-ninja",
   "version": "1.0.0",
   "description": "fishing charter",
-  "homepage": "https://ginjaninjafishing.com/",
+  "homepage": "https://whitney227.github.io/Ginja-Ninja",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
