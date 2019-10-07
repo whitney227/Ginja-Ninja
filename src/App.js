@@ -1,6 +1,6 @@
 import React from 'react';
+// import logo from './logo.svg';
 import './App.css';
-
 
 import Home from './pages/Home';
 import Packages from './pages/Packages';
@@ -13,9 +13,10 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
 
+
 function App() {
   return (
-  <>
+    <>
     <Navbar />
     <Switch>
       <Route exact path="/" component={Home}/>
@@ -25,6 +26,7 @@ function App() {
     </Switch>
     <Footer />
   </>  
+    
   );
 }
 
