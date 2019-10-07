@@ -2,7 +2,7 @@
   "name": "ginja-ninja",
   "version": "1.0.0",
   "description": "fishing charter",
-  "homepage": "http://whitney227.github.io/Ginja-Ninja",
+  "homepage": "http://ginjaninjafishing.com",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
