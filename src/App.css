@@ -175,6 +175,8 @@ h6 {
 }
 .trophyHero {
   background-image: url("./images/trophy-hero.jpg");
+  max-width: 100%;
+  height: auto;
   /* min-height: 80vh; */
 }
 /* End of Hero */
