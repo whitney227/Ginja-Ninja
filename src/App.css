@@ -109,8 +109,7 @@ h6 {
 }
 .nav-icon {
   font-size: 1.5rem;
-  color: black;
-  /* color:#0080ff; */
+  color:#0080ff; 
   /* margin-bottom: 40px;  */
 }
 .nav-links {
