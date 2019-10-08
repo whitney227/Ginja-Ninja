@@ -4,9 +4,9 @@
   "description": "fishing-charter",
   "main": "index.js",
   "scripts": {
+    "deploy": "gh-pages  -b master -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "deploy": "gh-pages -d build"
+    "build": "react-scripts build"
   },
   "repository": {
     "type": "git",
