@@ -19,6 +19,14 @@ import Card13 from "../images/card13.JPG"
 import Card14 from "../images/card14.jpg"
 import Card15 from "../images/card15.jpg"
 import Card16 from "../images/card16.png"
+import Card17 from "../images/card17.jpg"
+import Card18 from "../images/card18.jpg"
+import Card19 from "../images/card19.jpg"
+import Card20 from "../images/card20.JPG"
+import Card21 from "../images/card21.png"
+import Card22 from "../images/card22.jpg"
+import Card23 from "../images/card23.jpg"
+import Card24 from "../images/card24.JPG"
 
 const TrophyRoom = () => {
     return (
@@ -46,6 +54,16 @@ const TrophyRoom = () => {
             <Card image={Card13} />
             <Card image={Card15} />
             <Card image={Card16} />
+
+            <Card image={Card17} />
+            <Card image={Card18} />
+            <Card image={Card19} />
+            <Card image={Card20} />
+
+            <Card image={Card21} />
+            <Card image={Card22} />
+            <Card image={Card23} />
+            <Card image={Card24} />
         </CardDeck>
         <br></br>
         </>
