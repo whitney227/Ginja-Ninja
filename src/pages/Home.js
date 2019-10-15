@@ -8,7 +8,8 @@ export default function Home() {
     return (
         <>
         <Hero>
-            <Banner title="Ginja Ninja Charters" 
+            <Banner
+            title="Ginja Ninja Charters" 
             subtitle="39' High Performance SeaVee with triple 350 Yamahas">
         
             </Banner>
