@@ -401,12 +401,15 @@ img {
   z-index: 1;
 }
 .mr-auto{
+  justify-content: space-evenly;
   width: 30%;
   padding-top: 10px;
-  margin:auto;
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-column-gap: 10px;
+  margin: auto;
+  display: flex; 
+}
+.tooltip{
+  position: bottom;
+  font-size: 18px;
 }
 /* end of footer */
 
