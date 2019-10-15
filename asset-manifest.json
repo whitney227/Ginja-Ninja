@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.ae14c2bf.chunk.css",
-    "main.js": "/static/js/main.b820276e.chunk.js",
-    "main.js.map": "/static/js/main.b820276e.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.5f4e9bdd.js",
-    "runtime-main.js.map": "/static/js/runtime-main.5f4e9bdd.js.map",
-    "static/js/2.c978e678.chunk.js": "/static/js/2.c978e678.chunk.js",
-    "static/js/2.c978e678.chunk.js.map": "/static/js/2.c978e678.chunk.js.map",
+    "main.css": "/static/css/main.a57f6f51.chunk.css",
+    "main.js": "/static/js/main.53872819.chunk.js",
+    "main.js.map": "/static/js/main.53872819.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.064d53ee.js",
+    "runtime-main.js.map": "/static/js/runtime-main.064d53ee.js.map",
+    "static/js/2.3ecc051d.chunk.js": "/static/js/2.3ecc051d.chunk.js",
+    "static/js/2.3ecc051d.chunk.js.map": "/static/js/2.3ecc051d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.092aa891d106d8dc73279dbab41ca4a5.js": "/precache-manifest.092aa891d106d8dc73279dbab41ca4a5.js",
+    "precache-manifest.c7c019ee87e506b023cb8b1915e7e75e.js": "/precache-manifest.c7c019ee87e506b023cb8b1915e7e75e.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.ae14c2bf.chunk.css.map": "/static/css/main.ae14c2bf.chunk.css.map",
+    "static/css/main.a57f6f51.chunk.css.map": "/static/css/main.a57f6f51.chunk.css.map",
+    "static/media/App.css": "/static/media/trophy-hero.fd8094d8.jpg",
     "static/media/card1.jpg": "/static/media/card1.35291593.jpg",
     "static/media/card10.jpg": "/static/media/card10.6e7871e8.jpg",
     "static/media/card11.jpg": "/static/media/card11.71f1b4b6.jpg",
@@ -19,7 +20,15 @@
     "static/media/card14.jpg": "/static/media/card14.5cefa9c8.jpg",
     "static/media/card15.jpg": "/static/media/card15.2701fe37.jpg",
     "static/media/card16.png": "/static/media/card16.6bdc60d1.png",
+    "static/media/card17.jpg": "/static/media/card17.8ada5086.jpg",
+    "static/media/card18.jpg": "/static/media/card18.29922c94.jpg",
+    "static/media/card19.jpg": "/static/media/card19.7ab6fb62.jpg",
     "static/media/card2.jpg": "/static/media/card2.87591e76.jpg",
+    "static/media/card20.JPG": "/static/media/card20.1753f511.JPG",
+    "static/media/card21.png": "/static/media/card21.8ae60a0b.png",
+    "static/media/card22.jpg": "/static/media/card22.7ad41a41.jpg",
+    "static/media/card23.jpg": "/static/media/card23.fe6e4a45.jpg",
+    "static/media/card24.JPG": "/static/media/card24.657f83e0.JPG",
     "static/media/card3.jpg": "/static/media/card3.b40e263d.jpg",
     "static/media/card4.JPG": "/static/media/card4.12450935.JPG",
     "static/media/card5.jpg": "/static/media/card5.343116b4.jpg",
@@ -27,8 +36,13 @@
     "static/media/card7.jpg": "/static/media/card7.01cc9160.jpg",
     "static/media/card8.jpg": "/static/media/card8.03fe969e.jpg",
     "static/media/card9.JPG": "/static/media/card9.9dac9d76.JPG",
-    "static/media/App.css": "/static/media/trophy-room-hero.53361953.png",
     "static/media/fishrzr.jpg": "/static/media/fishrzr.68cbc69b.jpg",
     "static/media/logo.png": "/static/media/logo.a7f27a6c.png"
-  }
+  },
+  "entrypoints": [
+    "static/js/runtime-main.064d53ee.js",
+    "static/js/2.3ecc051d.chunk.js",
+    "static/css/main.a57f6f51.chunk.css",
+    "static/js/main.53872819.chunk.js"
+  ]
 }
