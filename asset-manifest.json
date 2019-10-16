@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.eecdde92.chunk.css",
-    "main.js": "/static/js/main.afd5a983.chunk.js",
-    "main.js.map": "/static/js/main.afd5a983.chunk.js.map",
+    "main.css": "/static/css/main.dde90498.chunk.css",
+    "main.js": "/static/js/main.c27e5176.chunk.js",
+    "main.js.map": "/static/js/main.c27e5176.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.064d53ee.js",
     "runtime-main.js.map": "/static/js/runtime-main.064d53ee.js.map",
-    "static/js/2.9e580c6b.chunk.js": "/static/js/2.9e580c6b.chunk.js",
-    "static/js/2.9e580c6b.chunk.js.map": "/static/js/2.9e580c6b.chunk.js.map",
+    "static/js/2.70bc3e36.chunk.js": "/static/js/2.70bc3e36.chunk.js",
+    "static/js/2.70bc3e36.chunk.js.map": "/static/js/2.70bc3e36.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.4757a1046a88db16046a4f2fe09ef1ab.js": "/precache-manifest.4757a1046a88db16046a4f2fe09ef1ab.js",
+    "precache-manifest.f0453c1f3825fce69dfca302878a8ad6.js": "/precache-manifest.f0453c1f3825fce69dfca302878a8ad6.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.eecdde92.chunk.css.map": "/static/css/main.eecdde92.chunk.css.map",
+    "static/css/main.dde90498.chunk.css.map": "/static/css/main.dde90498.chunk.css.map",
     "static/media/App.css": "/static/media/trophy-hero.fd8094d8.jpg",
     "static/media/card1.jpg": "/static/media/card1.35291593.jpg",
     "static/media/card10.jpg": "/static/media/card10.6e7871e8.jpg",
@@ -41,8 +41,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.064d53ee.js",
-    "static/js/2.9e580c6b.chunk.js",
-    "static/css/main.eecdde92.chunk.css",
-    "static/js/main.afd5a983.chunk.js"
+    "static/js/2.70bc3e36.chunk.js",
+    "static/css/main.dde90498.chunk.css",
+    "static/js/main.c27e5176.chunk.js"
   ]
 }
