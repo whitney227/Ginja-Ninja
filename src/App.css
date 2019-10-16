@@ -164,8 +164,8 @@ h6 {
 .packagesHero,
 .trophyHero {
   min-height: calc(100vh - 66px);
-  background: url("./images/default-header.JPG");
-  background-size: 100% 100%;
+  background: url("./images/default-header.JPG") center/cover no-repeat;
+  /* background-size: 100% 100%; */
   display: flex;
   align-items: center;
   justify-content: center;

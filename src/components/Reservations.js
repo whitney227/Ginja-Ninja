@@ -2,7 +2,7 @@ import React, {Component} from'react'
 import Card from 'react-bootstrap/Card';
 // import Button from 'react-bootstrap/Button';
 // import DropdownButton from 'react-bootstrap/DropdownButton'
-import Dropdown from 'react-bootstrap/Dropdown'
+// import Dropdown from 'react-bootstrap/Dropdown'
 
 export default class Reservations extends Component {
     render(){

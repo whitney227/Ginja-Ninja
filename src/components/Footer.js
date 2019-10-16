@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav';
-import {FaCameraRetro, FaMobileAlt, FaEnvelope, FaRegCopyright} from 'react-icons/fa'
+import {FaCameraRetro, FaMobileAlt, FaEnvelope, FaRegCopyright, FaFacebookF} from 'react-icons/fa'
 import ReactHintFactory from 'react-hint'
 const ReactHint = ReactHintFactory(React)
 
@@ -15,6 +15,9 @@ export default class Footer extends  Component {
                     <ReactHint className="tooltip" persist="true"
                     events={{click: true, focus: true}} />
 
+                    <Nav.Link target="_blank" href="https://www.instagram.com/ginja_ninja_fishingteam/">
+                        <FaFacebookF style={{color: 'white'}}/>
+                    </Nav.Link>
                     <Nav.Link target="_blank" href="https://www.instagram.com/ginja_ninja_fishingteam/">
                         <FaCameraRetro style={{color: 'white'}}/>
                     </Nav.Link>
