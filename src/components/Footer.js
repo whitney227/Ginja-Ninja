@@ -15,7 +15,7 @@ export default class Footer extends  Component {
                     <ReactHint className="tooltip" persist="true"
                     events={{click: true, focus: true}} />
 
-                    <Nav.Link target="_blank" href="https://www.instagram.com/ginja_ninja_fishingteam/">
+                    <Nav.Link target="_blank" href="https://www.facebook.com/ginjaninjafishing">
                         <FaFacebookF style={{color: 'white'}}/>
                     </Nav.Link>
                     <Nav.Link target="_blank" href="https://www.instagram.com/ginja_ninja_fishingteam/">
