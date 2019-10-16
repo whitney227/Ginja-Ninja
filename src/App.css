@@ -401,10 +401,11 @@ img {
   z-index: 1;
 }
 .mr-auto{
+  position: inherit;
   justify-content: space-evenly;
   width: 30%;
   padding-top: 10px;
-  margin: auto;
+  margin: auto; 
   display: flex; 
 }
 .tooltip{
